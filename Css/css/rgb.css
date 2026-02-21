@@ -1,0 +1,14 @@
+body{
+    background: rgba(20, 230,150,0.5);
+}
+
+
+#first{
+    color: rgb(255, 0, 0);
+    /* background: rgb(255, 0,0); */
+
+    /* opacity */
+    background:  rgba(0, 0,0,0.5);   
+}
+
+ 

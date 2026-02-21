@@ -1,0 +1,12 @@
+body{
+    color: blue;
+}
+
+div{
+    background-color: lightblue;
+    border:2px solid red;
+}
+
+h3{
+    color:red; 
+}

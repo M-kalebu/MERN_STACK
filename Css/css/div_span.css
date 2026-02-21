@@ -1,0 +1,19 @@
+/* div{
+    color: red;
+    background-color: lightblue;
+} */
+
+span{
+    text-transform: uppercase;
+    color: blue;
+}
+
+.red{
+    color: red;
+    background-color: lightblue;
+}
+
+.green{
+    color:green;
+    background-color: lightcoral;
+}

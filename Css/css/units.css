@@ -1,0 +1,9 @@
+
+            /* width and height using px units in css and depands on parent*/
+
+h1{
+    font-size: 45px;
+    width: 300px;
+    height: 100px;
+    background: lightblue;
+}
