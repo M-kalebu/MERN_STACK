@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.header{
+    width:50vw;
+    height:50vh;
+    background-color:red;
+}
+
+.banner{
+    width:50vw;
+    height:50vh;
+    background-color:blue;
+}
