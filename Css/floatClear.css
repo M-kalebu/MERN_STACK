@@ -1,0 +1,28 @@
+.banner{
+    border: 5px solid red;
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+/* img{
+    width: 200px;
+    float: left;
+    /* float: right; */
+
+    .one{
+        width: 200px;
+        float: right;
+    }
+    
+    .two{
+        width: 200px;
+        float: left;
+        
+    }
+
+p{
+    /* clear: left;
+    /* clear: right; */ 
+    clear: both;
+}

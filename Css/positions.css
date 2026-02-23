@@ -1,0 +1,31 @@
+div{
+    border: 5px solid red;
+    background: yellow;
+    margin-top: 40px;
+    /* position: static; */  
+}
+
+.one{
+    background-color: blue;
+    color: white;
+    /* position: relative; */
+    /* top: 230px; */
+}
+
+.two{
+    background-color: green;
+    color: white;
+    position: relative;
+    /* left: 30px; */
+}
+
+.special{
+    background-color: lightcoral;
+    font-size: 35px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+}
