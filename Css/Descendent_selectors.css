@@ -1,0 +1,23 @@
+
+body{
+    background-color: black;
+    color: violet;
+}
+
+
+div h1{
+    color: green;
+}
+
+/* .heading h1{
+    color: yellow;
+} */
+
+div > h1{
+    color: orangered;
+};
+
+
+.heading > h1{
+    color: white;
+}

@@ -1,0 +1,15 @@
+
+
+p::first-line {
+    color: red;
+    font-weight: bold;
+}
+
+p::first-letter{
+    color: black;
+    font-size:40px;
+}
+
+p{
+    text-indent: 20px;
+} 
