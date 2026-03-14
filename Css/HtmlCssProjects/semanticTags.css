@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "navbar navbar"
+    "aside main"
+    "aside footer";
+}
+
+
+
+nav{
+    grid-area: navbar;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 1em;
+}
+
+aside{
+    height: calc(100vh - 50px);
+    grid-area: aside;
+    position: sticky;
+    top: 50px;
+    align-self: self-start;
+    background: lightgrey;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}
