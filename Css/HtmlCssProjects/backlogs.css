@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 70%;
+    height: 90%;
+    border: 2px solid #83C2FD;
+}
+
+ h2{
+    color: #1e4f99;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    border-bottom: 1.7px dashed rgba(0, 0, 0, 0.4);
+    margin-bottom: 1rem;
+}
+
+.table{
+    width: 85%;
+    /* background-color: red; */
+    margin-left: 1rem;
+    border: 2px solid #85b0d8;
+    border-collapse: collapse;
+}
+
+.table th{
+    background-color: #6eaae2;
+    color: #fff;
+    padding: .55rem;
+    text-align: start;
+    font-size: 1.05rem;
+    letter-spacing: .01rem;
+    border: 2px solid #85b0d8;
+}
+
+tr td{
+    font-size: 1.25rem; 
+    background-color: #dcf2f7;
+    border: 2px solid #68a0d5;
+    padding: .25rem;
+    
+}
+
+.table span{
+    color: rgb(227, 22, 22);
+}
+
+
+.semester{
+    width: 35%;
+}
+
+.backlogs{
+    width: 65%;
+}
